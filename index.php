@@ -15,7 +15,7 @@ $article2 = [
     "Amazon Go : bientôt chez Carrefour et Auchan ?",
     "Technologie : Amazon veut étendre son influence dans la grande distribution. Le géant américain propose désormais de doter, dans un délai de « quelques semaines », les distributeurs tiers de sa technologie Just Walk Out.
     Amazon veut s'ouvrir aux distributeurs tiers. Le géant américain propose désormais sa technologie Just Walk Out aux distributeurs tiers pour qu'ils l'utilisent dans leurs magasins, a confirmé lundi sa direction, interrogée par ZDNet. Pour rappel, cette technologie, qui équipe les magasins Amazon Go sans caisse, permet aux clients de prendre ce qu'ils veulent dans un magasin et de le quitter, sans avoir besoin de passer à la caisse.",
-    "Amazon Go illustration A 620__w630.jpg",
+    "amazon.jpg",
     "Introduite pour la première fois en 2016 aux Etats-Unis dans les magasins Amazon Go, cette technologie repose sur la vision par ordinateur, la fusion de capteurs et l'apprentissage approfondi pour éliminer les files d'attente aux caisses. Sur un nouveau site web destiné aux distributeurs tiers, Amazon affirme que la nouvelle offre est basée sur une technologie éprouvée qui fonctionne avec une grande fiabilité et précision depuis des années dans nos magasins.
     « Désormais, nous permettons aux distributeurs d'utiliser cette technologie dans leurs magasins avec leur sélection, leur merchandising et leurs fournisseurs pour offrir à leurs clients la possibilité de sortir tout simplement [de  leurs supermarchés] en utilisant notre technologie », a fait savoir le géant américain du commerce en ligne. Celui-ci a déjà appliqué sa technologie aux magasins Amazon Go, dans lesquels les clients téléchargent une application pour faire leurs achats.",
     "Julie Sanchez, le 2 mars 2020"
@@ -38,18 +38,51 @@ $articles = [$article1, $article2, $article3];
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 $page = (isset($_GET["page"]))? $_GET["page"] : "article0";
+$size = sizeof($articles);
+$titre = "";
+$soustitre = "";
+$image = "";
+$contenu = "";
+$auteur = "";
 
-require "require.php";
+
+//require "require.php";
+
+$liste = "";
+for($i= 0; $i < $size; $i++) {
+    $titre .= $articles[$i][0];
+    $soustitre .= $articles[$i][1];
+    $image .= $articles[$i][2];
+    $contenu .= $articles[$i][3];
+    $auteur .= $articles[$i][4];
+
+    $liste .= "<article>
+        <h2>$titre</h2>
+        <img src=\"img\$image.jpg\" alt=''>
+        <h3>$soustitre</h3>
+        <p>$contenu</p>
+        <p>$auteur</p>
+    </article>";
+}
+
 ?>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title>La page de veille techno</title>
+</head>
+
+<body>
+
+
+<?php require 'html/article0.php' ?>
+
+
+</body>
+</html>

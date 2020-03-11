@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Navigation en PHP</title>
+    <title>Page veille techno</title>
     
 </head>
 <body>

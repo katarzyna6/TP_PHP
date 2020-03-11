@@ -1,8 +1,10 @@
 <section>
 <h1>Les articles sur les nouvelles technologies.</h1>
-    <article>
+
+<?= $liste ?>
+    <!-- <article>
         <h2>Ella, la policière virtuelle.</h2>
-        <img src="php img\police.jpg" alt="">
+        <img src="img\police.jpg" alt="">
         <h3>La police néo-zélandaise expérimente un dispositif d’intelligence artificielle en ligne pour enregistrer les dépôts de plainte. Le programme Ella prend les traits d’une officière de police sur un écran d’ordinateur ou celui d’un smartphone.</h3>
 
         <p>Les flux constants d’informations qui transitent par les centres des données gigantesques de la toile, sont analysés par des programmes informatiques qualifiés par les chercheurs « d’intelligents ». Ces systèmes analytiques surpuissants  intéressent les autorités judiciaires de tous pays du monde. Certains pour prévenir la criminalité, d’autres pour juger les coupables dans des tribunaux automatisés.
@@ -16,7 +18,7 @@
 
     <article>
         <h2>Amazon Go : bientôt chez Carrefour et Auchan ?</h2>
-        <img src="php img\Amazon Go illustration A 620__w630.jpg" alt="">
+        <img src="img\amazon.jpg" alt="">
         <h3>Technologie : Amazon veut étendre son influence dans la grande distribution. Le géant américain propose désormais de doter, dans un délai de « quelques semaines », les distributeurs tiers de sa technologie "Just Walk Out".
         Amazon veut s'ouvrir aux distributeurs tiers. Le géant américain propose désormais sa technologie "Just Walk Out" aux distributeurs tiers pour qu'ils l'utilisent dans leurs magasins, a confirmé lundi sa direction, interrogée par ZDNet. Pour rappel, cette technologie, qui équipe les magasins Amazon Go sans caisse, permet aux clients de prendre ce qu'ils veulent dans un magasin et de le quitter, sans avoir besoin de passer à la caisse.</h3>
 
@@ -28,7 +30,7 @@
 
     <article>
         <h2>Nouvelle technologie 5G : Quels dangers pour la santé?</h2>
-        <img src="php img\5G-dangers.jpg" alt="">
+        <img src="img\5G-dangers.jpg" alt="">
 
         <h3>Le lancement de la 5G ou technologie de communication de « 5ème génération » est prévu pour fin 2020 en France. Si la 5G est particulièrement attendue par les consommateurs avides de nouveaux services innovants, son déploiement va considérablement modifier l’exposition des populations, ce qui soulève la question des risques engendrés pour la santé. L’Anses se mobilise donc pour évaluer les risques sanitaires liés à l’exposition à cette nouvelle technologie.</h3>
         <p>Les promesses de la 5G
@@ -40,6 +42,5 @@
         Puis la bande 26 GHz pour la couverture en téléphonie mobile 5G dans des périmètres restreints et la communication entre objets connectés.
         Dans ce contexte, les ministères chargés de la santé, de l’environnement et de l’économie ont fait appel à l’Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail (Anses) pour qu’elle conduise une enquête sur l’exposition de la population aux champs électromagnétiques découlant de cette technologie 5G et aux éventuels effets sanitaires associés.</p>
         <p>Jean Dupont, le 29 février 2020</p>
-    </article>
+    </article> -->
 </section>
-
