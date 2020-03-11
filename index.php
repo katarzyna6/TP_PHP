@@ -1,6 +1,6 @@
 <?php
 
-$article1 [
+$article1 = [
 "Ella, la policière virtuelle.", 
 "La police néo-zélandaise expérimente un dispositif d’intelligence artificielle en ligne pour enregistrer les dépôts de plainte. Le programme Ella prend les traits d’une officière de police sur un écran d’ordinateur ou celui d’un smartphone.", 
 "police.jpg",
@@ -11,7 +11,7 @@ Des technologies basées sur reconnaissance faciale, sont employées pour préve
 "Jean Dupont, le 5 mars 2020"
 ];
 
-$article2 [
+$article2 = [
     "Amazon Go : bientôt chez Carrefour et Auchan ?",
     "Technologie : Amazon veut étendre son influence dans la grande distribution. Le géant américain propose désormais de doter, dans un délai de « quelques semaines », les distributeurs tiers de sa technologie Just Walk Out.
     Amazon veut s'ouvrir aux distributeurs tiers. Le géant américain propose désormais sa technologie Just Walk Out aux distributeurs tiers pour qu'ils l'utilisent dans leurs magasins, a confirmé lundi sa direction, interrogée par ZDNet. Pour rappel, cette technologie, qui équipe les magasins Amazon Go sans caisse, permet aux clients de prendre ce qu'ils veulent dans un magasin et de le quitter, sans avoir besoin de passer à la caisse.",
@@ -21,7 +21,7 @@ $article2 [
     "Julie Sanchez, le 2 mars 2020"
 ];
 
-$article3 [
+$article3 = [
     "Nouvelle technologie 5G : Quels dangers pour la santé?",
     "Le lancement de la 5G ou technologie de communication de « 5ème génération » est prévu pour fin 2020 en France. Si la 5G est particulièrement attendue par les consommateurs avides de nouveaux services innovants, son déploiement va considérablement modifier l’exposition des populations, ce qui soulève la question des risques engendrés pour la santé. L’Anses se mobilise donc pour évaluer les risques sanitaires liés à l’exposition à cette nouvelle technologie.",
     "5G-dangers.jpg",
